@@ -25,7 +25,7 @@ public class DBHelper extends SQLiteOpenHelper {
                 + " TEXT, " + COLUMN_YEAR + " INTEGER);");
         // добавление начальных данных
         db.execSQL("INSERT INTO "+ TABLE +" (" + COLUMN_NAME
-                + ", " + COLUMN_YEAR  + ") VALUES ('Том Смит', 1981);");
+                + ", " + COLUMN_YEAR  + ") VALUES ('Гарри Поттер', 2000);");
     }
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion,  int newVersion) {
